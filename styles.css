@@ -19,3 +19,12 @@ img {
     height: auto;
     align-items: center;
 }
+.nav-buttons {
+    color: #4CAF50;
+    padding: 10px 20px;
+    margin: 10px;
+    border: dotted 5px #4CAF50;
+    border-radius: 5px;
+    cursor: pointer;
+    text-align: center;
+}
