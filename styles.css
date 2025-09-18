@@ -1,0 +1,21 @@
+/* styles.css */
+body {
+    background-color: #f9fafb;
+    margin: 20px;
+    padding: 20px;
+}
+h1 {
+    text-align: center;
+    color: #333;
+}
+h4 {
+    text-align: center;
+    color: #555;
+}
+img {
+    display: block;
+    margin: 20px auto;
+    max-width: 100%;
+    height: auto;
+    align-items: center;
+}
