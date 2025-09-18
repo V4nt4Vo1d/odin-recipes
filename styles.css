@@ -22,7 +22,7 @@ img {
     height: auto;
     align-items: center;
 }
-.nav-buttons {
+/* .nav-buttons {
     color: #4CAF50;
     padding: 10px 5px;
     margin: 0px;
@@ -30,6 +30,23 @@ img {
     border-radius: 0px;
     cursor: pointer;
     text-align: center;
+} */
+
+.nav-buttons {
+    color: #4CAF50;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 16px;
+}
+
+.header .odin-title {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-grow: 1;
 }
 .setup {
     text-align: center;
@@ -43,4 +60,26 @@ img {
 }
 #instructions.setup {
     text-align: left;
+}
+
+.recipe-links {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(245, 11, 194, 0.199);
+    padding: 8px 16px;
+    box-shadow: 1px 1px 8px rgba(0, 0, 0, 0.753);
+}
+a {
+    color: rgb(235, 1, 243);
+    text-decoration: none;
 }
